@@ -43,4 +43,9 @@ let variableNoDef = undefined
 let variableNull = null
 console.log(variableNoDef + variableNull)
 
-
+// Ejercicio 12
+console.log("\nEjercicio 12")
+let boleano = true
+let cadena = String(boleano)
+console.log(cadena)
+console.log((boleano + ""))
