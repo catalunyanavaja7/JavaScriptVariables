@@ -36,3 +36,11 @@ let nombre2 = "Leonardo Mata"
 let nombre2Cortado = nombre2.replace("r", "")
 console.log(nombre2Cortado)
 
+// Ejercicio 11
+console.log("\nEjercicio 11")
+// Aparece Nan en la consola
+let variableNoDef = undefined
+let variableNull = null
+console.log(variableNoDef + variableNull)
+
+
