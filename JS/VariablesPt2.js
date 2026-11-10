@@ -30,4 +30,9 @@ let nombre = "Leonardo Mata"
 let soloApellidoSplit = nombre.split(" ")
 console.log(soloApellidoSplit[1].length)
 
+// Ejercicio 10
+console.log("\nEjercicio 10")
+let nombre2 = "Leonardo Mata"
+let nombre2Cortado = nombre2.replace("r", "")
+console.log(nombre2Cortado)
 
