@@ -23,9 +23,19 @@ var antes = "probemos"
 //let antesLet = "noVa"
 
 // Ejercicio 4
+// Me deja hacer esto porque es un tipo de datos variable
 console.log("\nEjercicio 4")
 var difValor = "veinte"
 console.log(difValor)
 difValor = 20
 console.log(difValor)
+
+// Ejercicio 5
+// Aqui en cambio no funciona
+console.log("\nEjercicio 5")
+console.log("No funciona")
+// const DIF_VALOR = "veinte"
+// console.log(DIF_VALOR)
+// DIF_VALOR = 20
+// console.log(DIF_VALOR)
 
