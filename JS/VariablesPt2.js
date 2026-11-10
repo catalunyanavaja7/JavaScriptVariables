@@ -10,5 +10,12 @@ console.log("Resta: " + resta.toFixed(1))
 console.log("Multiplicacion: " + (normal * Number(big)).toFixed(1))
 console.log("Division: " + (normal / Number(big)).toFixed(1))
 
+// Ejercicio 7
+console.log("\nEjercicio 7")
+// Nota: No se calcular la hipotenusa, my bad las mates no se me daban bien
+let cateto = 4
+let hipotenusa = cateto + cateto
+console.log("Hipotenusa: " + hipotenusa)
+
 
 
