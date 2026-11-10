@@ -22,5 +22,10 @@ var antes = "probemos"
 //console.log(antesLet)
 //let antesLet = "noVa"
 
-
+// Ejercicio 4
+console.log("\nEjercicio 4")
+var difValor = "veinte"
+console.log(difValor)
+difValor = 20
+console.log(difValor)
 
