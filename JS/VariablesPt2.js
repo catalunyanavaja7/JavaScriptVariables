@@ -55,3 +55,8 @@ let cadena = "Hola"
 console.log(Boolean(cadena))
 console.log(2 || cadena)
 
+// Ejercicio 14
+console.log("\nEjercicio 14")
+let bool = true
+console.log(Number(bool))
+console.log(bool | 0)
