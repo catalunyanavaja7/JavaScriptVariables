@@ -17,5 +17,12 @@ let cateto = 4
 let hipotenusa = cateto + cateto
 console.log("Hipotenusa: " + hipotenusa)
 
+// Ejercicio 8
+console.log("\nEjercicio 8")
+// Si que hace la division correctamente, interesante
+let entero = 20
+let texto = "5"
+console.log("Division entre entero y texto: " + (entero / texto))
+
 
 
