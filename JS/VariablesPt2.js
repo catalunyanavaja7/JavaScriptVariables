@@ -46,6 +46,12 @@ console.log(variableNoDef + variableNull)
 // Ejercicio 12
 console.log("\nEjercicio 12")
 let boleano = true
-let cadena = String(boleano)
-console.log(cadena)
+console.log(String(boleano))
 console.log((boleano + ""))
+
+// Ejercicio 13
+console.log("\nEjercicio 13")
+let cadena = "Hola"
+console.log(Boolean(cadena))
+console.log(2 || cadena)
+
