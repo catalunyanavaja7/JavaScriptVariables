@@ -24,5 +24,10 @@ let entero = 20
 let texto = "5"
 console.log("Division entre entero y texto: " + (entero / texto))
 
+// Ejercicio 9
+console.log("\Ejercicio 9")
+let nombre = "Leonardo Mata"
+let soloApellidoSplit = nombre.split(" ")
+console.log(soloApellidoSplit[1].length)
 
 
