@@ -83,4 +83,12 @@ var cierto = (valor1, valor2) => {
 
 console.log(cierto(20, 30))
 
+//Ejercicio 11
+var arrel = (numero) => {
+    console.log("\nEjercicio 11")
+    return Math.sqrt(numero).toFixed(2)
+}
+
+console.log(arrel(17))
+
 
