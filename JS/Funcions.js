@@ -60,5 +60,17 @@ function comparacion(ent1, ent2) {
 
 comparacion(20, 10)
 
+// Ejercicio 9
+var anonimo = function (ent1, ent2) {
+    if (ent1 === 30 || ent1 + ent2 === 30) {
+        console.log("\nEjercicio 9")
+        console.log("Es true anonimamente")
+        return true
+    }
+}
+
+console.log(anonimo(30, 0))
+
+
 
 
