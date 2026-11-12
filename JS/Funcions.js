@@ -8,6 +8,7 @@ function nombreCompleto(nombre, apellido) {
 
 nombreCompleto("Leonardo", "Mata")
 
+// Ejercicio 2
 function tipoVariable(valor) {
     console.log("\nEjercicio 2")
     console.log(typeof valor)
@@ -15,3 +16,12 @@ function tipoVariable(valor) {
 
 tipoVariable(20)
 
+// Ejercicio 3
+
+const actual = new Date()
+
+function fecha(actual) {
+    console.log(actual)
+}
+
+fecha(actual)
