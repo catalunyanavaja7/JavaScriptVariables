@@ -32,3 +32,13 @@ fecha(actual)
 console.log("\nEjercicio 4")
 console.log("las variables creadas dentro de las funciones solo se pueden " +
     "usar dentro de ellas")
+
+// Ejercicio 5
+
+console.log("\nEjercicio 5")
+function fVocales(texto) {
+    const vocales = texto.match(/[aeiouáéíóú]/gi) || [];
+    console.log(vocales.length)
+}
+
+fVocales("Leonardo")
