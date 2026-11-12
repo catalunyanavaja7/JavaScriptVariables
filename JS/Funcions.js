@@ -42,3 +42,15 @@ function fVocales(texto) {
 }
 
 fVocales("Leonardo")
+
+// Ejercicio 6
+
+console.log("\nEjercicio 6")
+function fSuma(num1, num2, num3 = 20) {
+    console.log(num1 + num2 + num3)
+
+}
+
+fSuma(10, 10)
+
+
