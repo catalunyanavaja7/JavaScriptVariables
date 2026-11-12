@@ -120,3 +120,11 @@ var posicio = (frase, paraula) => {
 }
 
 console.log(posicio("Hola com estas", "com"));
+
+// Ejercicio 15
+console.log("\nEjercicio 15")
+console.log("Lo que hace la siguiente funcion es buscar el cubo de un numero")
+
+var cubo = (x) => x + x + x
+
+console.log(cubo(10))
