@@ -71,6 +71,16 @@ var anonimo = function (ent1, ent2) {
 
 console.log(anonimo(30, 0))
 
+// Ejercicio 10
+var cierto = (valor1, valor2) => {
+    console.log("\nEjercicio 10")
+    if (typeof valor1 === typeof valor2) {
+        return true
+    } else {
+        return false
+    }
+}
 
+console.log(cierto(20, 30))
 
 
