@@ -108,6 +108,15 @@ var noNull = (val1, val2) => {
 
 console.log(noNull(null, 40))
 
+// Ejercicio 14
+console.log("\nEjercicio 14")
 
+var posicio = (frase, paraula) => {
+    for (let i = 0; i < frase.length; i++) {
+        if (frase.slice(i, i + paraula.length) === paraula) {
+            return frase.length - i;
+        }
+    }
+}
 
-
+console.log(posicio("Hola com estas", "com"));
