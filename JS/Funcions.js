@@ -21,7 +21,14 @@ tipoVariable(20)
 const actual = new Date()
 
 function fecha(actual) {
+    console.log("\nEjercicio 3")
     console.log(actual)
 }
 
 fecha(actual)
+
+// Ejercicio 4
+
+console.log("\nEjercicio 4")
+console.log("las variables creadas dentro de las funciones solo se pueden " +
+    "usar dentro de ellas")
