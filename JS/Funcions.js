@@ -95,4 +95,19 @@ var minus = (cadena) => cadena.toLowerCase()
 
 console.log(minus("HOLA MUNDO"))
 
+// Ejercicio 13
+console.log("\nEjercicio 13")
+
+var noNull = (val1, val2) => {
+    if (val1 === null) {
+        return val2
+    } else {
+        return val1
+    }
+}
+
+console.log(noNull(null, 40))
+
+
+
 
