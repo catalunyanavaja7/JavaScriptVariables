@@ -17,7 +17,6 @@ function tipoVariable(valor) {
 tipoVariable(20)
 
 // Ejercicio 3
-
 const actual = new Date()
 
 function fecha(actual) {
@@ -28,15 +27,13 @@ function fecha(actual) {
 fecha(actual)
 
 // Ejercicio 4
-
 console.log("\nEjercicio 4")
 console.log("las variables creadas dentro de las funciones solo se pueden " +
     "usar dentro de ellas")
 
 // Ejercicio 5
-
-console.log("\nEjercicio 5")
 function fVocales(texto) {
+    console.log("\nEjercicio 5")
     const vocales = texto.match(/[aeiouáéíóú]/gi) || [];
     console.log(vocales.length)
 }
@@ -44,13 +41,24 @@ function fVocales(texto) {
 fVocales("Leonardo")
 
 // Ejercicio 6
-
-console.log("\nEjercicio 6")
 function fSuma(num1, num2, num3 = 20) {
+    console.log("\nEjercicio 6")
     console.log(num1 + num2 + num3)
 
 }
 
 fSuma(10, 10)
+
+// Ejercicio 8
+function comparacion(ent1, ent2) {
+    if (ent1 === 30 || ent1 + ent2 === 30) {
+        console.log("\nEjercicio 8")
+        console.log("Es true")
+        return true
+    }
+}
+
+comparacion(20, 10)
+
 
 
